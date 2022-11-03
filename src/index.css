@@ -108,15 +108,15 @@ a:hover{
 
 }
 
-.btn :hover{
+.btn:hover{
   background-color: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
 
 }
 
-.btm-primary{
-  background:var(--color--primary);
+.btn-primary{
+  background:var(--color-primary);
   color: var(--color-bg);
 }
 
