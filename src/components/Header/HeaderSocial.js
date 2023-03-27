@@ -5,12 +5,17 @@ import { BsLinkedin, BsFacebook, BsGithub } from 'react-icons/bs'
 
 const HeaderSocial = () => {
     return (
-        <div className='header__socials'>
-            <a href="linked" target="_blank"><BsLinkedin></BsLinkedin></a>
-            <a href="linked" target="_blank"><BsFacebook></BsFacebook></a>
-            <a href="linked" target="_blank"><BsGithub></BsGithub></a>
-            
-        </div>
+      <div className="header__socials">
+        <a href="https://www.linkedin.com/in/sm-tariqulislam/" target="__blank">
+          <BsLinkedin></BsLinkedin>
+        </a>
+        <a href="https://www.facebook.com/smtariqulislam00" target="__blank">
+          <BsFacebook></BsFacebook>
+        </a>
+        <a href="https://github.com/smtariqulislam" target="__blank">
+          <BsGithub></BsGithub>
+        </a>
+      </div>
     );
 };
 
