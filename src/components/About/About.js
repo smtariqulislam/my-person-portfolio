@@ -23,14 +23,14 @@ const About = () => {
               <article className="about__card">
                 <FaAward className="about__icon"></FaAward>
                 <h5>Experience</h5>
-                <small>fresher</small>
+                <small>6month+</small>
               </article>
               <article className="about__card">
                 {/* <FaAward className="about__icon"></FaAward>
                  */}
                 <FiUsers className="about__icon"></FiUsers>
                 <h5>Client</h5>
-                <small>fresher</small>
+                <small>2+</small>
               </article>
               <article className="about__card">
                 <VscFolderLibrary className="about__icon"></VscFolderLibrary>
@@ -39,10 +39,16 @@ const About = () => {
               </article>
             </div>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Repellendus, suscipit explicabo? Excepturi libero natus a ea
-              debitis aut ut illo, veritatis aspernatur aliquam nesciunt quasi
-              architecto! Adipisci iure nostrum fugit.
+              I believe my unique combination of technical skills and practical
+              experience sets me apart from other candidates. My expertise in
+              the MERN stack (MongoDB, Express, React, and Node.js), along with
+              my completion of several projects using this technology,
+              demonstrates my competence and proficiency in full-stack
+              development. I am confident that my strong understanding of the
+              MERN stack, combined with my dedication and passion for software
+              development, make me a strong fit for this role. I am eager to
+              bring my skills and experiences to the table and make a meaningful
+              contribution to your team
             </p>
             <a href="#contact" className="btn btn-primary">
               Let's Talks

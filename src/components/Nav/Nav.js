@@ -3,6 +3,7 @@ import './Nav.css'
 
 import { AiOutlineHome, AiOutlineContacts, AiOutlineUser } from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
+import { MdMiscellaneousServices } from "react-icons/md";
 import { useState } from 'react';
 
 
@@ -32,10 +33,18 @@ const Nav = () => {
         >
           <BiBook></BiBook>
         </a>
-        <a href="#services">
-          <AiOutlineHome></AiOutlineHome>
+        <a
+          href="#services"
+          onClick={() => setActiveNav("#services")}
+          className={activeNav === "#services" ? "active" : ""}
+        >
+          <MdMiscellaneousServices></MdMiscellaneousServices>
         </a>
-        <a href="#contact">
+        <a
+          href="#contact"
+          onClick={() => setActiveNav("#contact")}
+          className={activeNav === "#contact" ? "active" : ""}
+        >
           <AiOutlineContacts></AiOutlineContacts>
         </a>
       </nav>

@@ -11,61 +11,86 @@ const Services = () => {
         <div className="container services_container">
           <article className="service">
             <div className="service_head">
-              <h2>UI/UX Design</h2>
+              <h3>Frontend Development</h3>
             </div>
 
             <ul className="service_list">
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>creative website design that users like.</p>
+              </li>
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>Responsiveness website make that user like.</p>
+              </li>
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>The user can easily understand every feature.</p>
+              </li>
             </ul>
           </article>
-          {/* End of UI/UX  */}
+          {/* End of frontend  */}
           <article className="service">
             <div className="service_head">
-              <h3>Web Development</h3>
+              <h3>Full-Stack Development</h3>
             </div>
 
             <ul className="service_list">
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>
+                  Developing front end website architecture.
+                </p>
+              </li>
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>Designing user interactions on web pages.</p>
+              </li>
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>Developing back end website applications.</p>
+              </li>
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>Creating servers and databases.</p>
+              </li>
+             
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>Ensuring responsiveness of applications.</p>
+              </li>
+              
+              
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>Designing and developing APIs.</p>
+              </li>
+             
+             
             </ul>
           </article>
-          {/* End of web development  */}
+          {/* End of full-stack development  */}
           <article className="service">
             <div className="service_head">
-              <h3>Content Creation</h3>
+              <h3>Teaching CHESS Game</h3>
             </div>
 
             <ul className="service_list">
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-              <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>How to play chess game</p>
+              </li>
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>How to think the next move and win eassily</p>
+              </li>
+              <li>
+                <BiCheck className="service_list-icon"></BiCheck>
+                <p>You can know about the art of chess</p>
+              </li>
             </ul>
           </article>
-          {/* End of content creation */}
+          {/* End of chess learning */}
         </div>
       </section>
     );
